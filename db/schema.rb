@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2023_10_25_171146) do
 
-  create_table "posts", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "posts", force: :cascade do |t|
     t.string "title"
     t.date "start_date", null: false
     t.date "end_date", null: false
